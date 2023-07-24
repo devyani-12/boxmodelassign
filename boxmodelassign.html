@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+
+
+    <style>
+
+body {
+    margin: 20px;
+    padding: 20px;
+   
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+.outerbox{
+        margin-left: 125%;
+        margin-top: 25%;
+        padding: 20px;
+        border: 3px dashed red;
+
+ }
+     
+.darkyellowbox{
+    height:400px;
+    width: 500px;
+    background-color: rgb(197, 171, 27); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.yellowbox{
+    height:350px; 
+    width: 450px;
+    background-color: rgb(239, 239, 62);
+}
+
+.bluebox{
+    position: absolute;
+    top: 160px;
+    left: 411px;
+    height:250px;
+    width: 450px;
+    background-color: rgb(116, 198, 221); 
+    padding-left: 15px; 
+   
+ 
+
+}
+     
+
+    </style>
+</head>
+<body>
+    
+    <div class="outerbox">
+        <div class="darkyellowbox">
+            <div class="yellowbox">
+
+            </div>
+
+        </div>
+
+    
+
+
+            <div class="bluebox">
+                <h1>Hey, Box Model!</h1>
+                <p>This is a practice question to test your understanding of CSS Box Model.</p>
+            </div>
+
+    </div>
+</body>
+</html>
